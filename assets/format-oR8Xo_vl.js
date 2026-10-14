@@ -1,0 +1,1 @@
+function o(t){const e=t?.toDate?t.toDate():t instanceof Date?t:null;if(!e)return"";const n=a=>String(a).padStart(2,"0");return`${e.getFullYear()}.${n(e.getMonth()+1)}.${n(e.getDate())} ${n(e.getHours())}:${n(e.getMinutes())}`}const r=t=>Math.round(Number(t)||0).toLocaleString("zh-TW");export{r as a,o as f};
